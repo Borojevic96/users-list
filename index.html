@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Databox - naloga</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <img class="header__logo" src="img/logo.svg" alt="logo">
+            <div class="header__filters">
+                <p class="header__filters-title">FILTER:</p>
+                <button class="header__filters-button active">All</button>
+                <button class="header__filters-button">Free</button>
+                <button class="header__filters-button">Paying</button>
+            </div>
+        </div>
+    </header>
+    <section class="action-box">
+        <div class="container">
+            <input class="action-box__search" id="search" type="search" placeholder="Search"/>
+            <button class="action-box__create-button">Create new Account</button>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="users-container"></div>
+        </div>
+    </section>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
